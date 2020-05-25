@@ -1,0 +1,28 @@
+.Table {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+table, th, td, tr {
+  border: none;
+}
+
+.Table table{
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.Table table th {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Table table tr{
+  height: 48px;
+}
+
+.Table-even {
+  background-color: #F2F2F2;
+}
